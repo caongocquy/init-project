@@ -8,12 +8,9 @@ import CTouchable from './CTouchable';
 import CAvatar from './CAvatar';
 import CInput from './CInput';
 import WrapperModal from './WraperModal';
-import normalize from './helpers/normalizeText';
-
-import Loading from './Loading';
+import ModalWraper from './ModalWraper';
 import ButtonDropdown from './ButtonDropdown';
 import Dash from './Dash';
-import NSSearchBar from './NSSearchBar';
 
 export {
   Dash,
@@ -28,6 +25,4 @@ export {
   CTouchable,
   ModalWraper,
   ButtonDropdown,
-  NSAuthInput,
-  NSSearchBar
 };

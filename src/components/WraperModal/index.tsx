@@ -16,9 +16,8 @@ import { StackNavigationProp } from '@react-navigation/stack';
 import CIcon from '../CIcon';
 import CText from '../CText';
 import CTouchable from '../CTouchable';
-import R from '../../res/R';
-import metrics from '../../config/metrics';
-import {SafeAreaView} from 'react-native-safe-area-context';
+import R from 'src/res/R';
+import metrics from 'src/config/metrics';
 
 type Props = {
   isFullHeight?: boolean;

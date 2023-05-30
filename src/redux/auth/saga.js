@@ -3,8 +3,6 @@ import { call, put, take, takeEvery, takeLatest, all } from 'redux-saga/effects'
 import Types from './index';
 import API from 'src/utils/api';
 import { showMessage } from 'react-native-flash-message';
-import codePush from 'react-native-code-push';
-import OneSignal from 'react-native-onesignal';
 import R from 'src/res/R';
 import { actions } from './reducer';
 function* unauthorized(action) {
